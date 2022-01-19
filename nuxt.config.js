@@ -1,9 +1,12 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/template-portfolio-1/',
+  },
 
   head: {
-    title: 'Jogn Doe | Front-end Web Developer',
+    title: 'John Doe | Front-end Web Developer',
     htmlAttrs: {
       lang: 'en',
     },
